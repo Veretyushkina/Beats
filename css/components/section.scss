@@ -1,0 +1,37 @@
+.section {
+    height: 100vh;
+    max-height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &--font-color--white{
+        color: white;
+
+        .section__title{
+            color: inherit;
+        }
+    }
+
+}
+
+.section__title {
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    text-align: center;
+    color: black;
+}
+
+.order-section {
+    background: url("../img/background/cta.png") center center / 100% auto no-repeat;
+    position: relative;
+
+    &::after {
+        content: url("../img/decor/Polygon\ 2.png");
+        position: absolute;
+        top: -24px;
+        right: 90px;
+    }
+}

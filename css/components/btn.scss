@@ -1,0 +1,31 @@
+.btn {
+    width: 163px;
+    height: 54px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 1;
+    padding: 18px 41px;
+    border-radius: 100px;
+    border: none;
+
+    &--theme--red {
+        color: white;
+        background: $red;
+
+        &:hover{
+            color: $red;
+            background: white;
+        }
+    }
+
+    &--theme--transparent {
+        background: transparent;
+        color: white;
+        text-transform: none;
+
+        &:hover {
+            color: #666666;
+        }
+    }
+}

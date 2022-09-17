@@ -1,0 +1,46 @@
+.socials {
+    display: flex;
+    padding: 9px 0px;
+}
+
+.socials__item {
+    width: 30px;
+    height: 30px;
+    background: center center no-repeat;
+
+    &--vk {
+        background-image: url("../img/icon/socials/vk.svg");
+
+        &:hover {
+            background-image: url("../img/icon/socials/vk-h.svg");
+        }
+    }
+
+    
+    &--fb {
+        background-image: url("../img/icon/socials/f.svg");
+
+        &:hover {
+            background-image: url("../img/icon/socials/f-h.svg");
+        }
+    }
+
+    
+    &--inst {
+        background-image: url("../img/icon/socials/in.svg");
+
+        &:hover {
+            background-image: url("../img/icon/socials/in-h.svg");
+        }
+    }
+
+
+    &--tg {
+        background-image: url("../img/icon/socials/tg.svg");
+
+        &:hover {
+            background-image: url("../img/icon/socials/tg-h.svg");
+        }
+    }
+
+}
